@@ -33,7 +33,7 @@ In the first stage, the model is trained with TLM to learn the cross-lingual rep
 ```
 sh ./srcipt/train_stage1.sh
 ```
-###Second training stage
+### Second training stage
 After the first training stage, the model is then finetuned with a self-supervised alignment
 objective to bridge the gap between the training and inference.
 ```
