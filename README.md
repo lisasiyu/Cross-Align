@@ -1,4 +1,4 @@
-#Cross-Align
+# Cross-Align
 Code for [EMNLP2022 "Cross-Align: Modeling Deep Cross-lingual Interactions for Word
 Alignment"](https://arxiv.org/pdf/2210.04141.pdf)
 
@@ -20,39 +20,38 @@ We released the above five langauge pairs of Cross-Align models, you can downloa
 ```
 pip install --user --editable ./
 ```
-##Input format
+## Input format
 Inputs should be **tokenized** and each line is a source language sentence and 
 its target language translation, separated by (```|||```). For example:
 ```
 Das stimmt nicht ! ||| But this is not what happens .
 ```
-##Two-stage Training
+## Two-stage Training
 Training Cross-Align on parallel data to get good alignments.
-###First training stage
+### First training stage
 In the first stage, the model is trained with TLM to learn the cross-lingual representations.
 ```
 sh ./srcipt/train_stage1.sh
 ```
-###Second training stage
+### Second training stage
 After the first training stage, the model is then finetuned with a self-supervised alignment
 objective to bridge the gap between the training and inference.
 ```
 sh ./srcipt/train_stage2.sh
 ```
-##Inference
+## Inference
 Extracting word alignments from ```Cross-Align```.
 ```commandline
 sh ./srcipt/inference.sh
 ```
 ```Cross-Align``` produces outputs in the widely-used i-j “Pharaoh format,” where a pair i-j indicates that the i-th word (zero-indexed) of 
 the source language is aligned to the j-th word of the target sentence. You can see some examples in the ```data/xx.out```.
-##Calculating AER
+## Calculating AER
 The gold alignment file should have the same format as Cross-Align outputs. For sample parallel sentences and their gold alignments, see ```data/test.xx-xx``` and ```data/xx.talp```.
 ```commandline
 sh ./srcipt/cal_aer.sh
 ```
-
-##Publication
+## Publication
 If you use the code, please cite
 ```
 @article{Lai2022cross,
