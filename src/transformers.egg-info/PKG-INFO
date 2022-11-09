@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: transformers
+Version: 4.17.0.dev0
+Summary: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
+Home-page: https://github.com/huggingface/transformers
+Author: Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Sam Shleifer, Patrick von Platen, Sylvain Gugger, Suraj Patil, Stas Bekman, Google AI Language Team Authors, Open AI team Authors, Facebook AI Authors, Carnegie Mellon University Authors
+Author-email: thomas@huggingface.co
+License: Apache
+Keywords: NLP deep learning transformer pytorch tensorflow BERT GPT GPT-2 google openai CMU
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: ja
+Provides-Extra: sklearn
+Provides-Extra: tf
+Provides-Extra: tf-cpu
+Provides-Extra: torch
+Provides-Extra: retrieval
+Provides-Extra: flax
+Provides-Extra: tokenizers
+Provides-Extra: onnxruntime
+Provides-Extra: onnx
+Provides-Extra: modelcreation
+Provides-Extra: sagemaker
+Provides-Extra: deepspeed
+Provides-Extra: fairscale
+Provides-Extra: optuna
+Provides-Extra: ray
+Provides-Extra: sigopt
+Provides-Extra: integrations
+Provides-Extra: serving
+Provides-Extra: audio
+Provides-Extra: speech
+Provides-Extra: torch-speech
+Provides-Extra: tf-speech
+Provides-Extra: flax-speech
+Provides-Extra: vision
+Provides-Extra: timm
+Provides-Extra: codecarbon
+Provides-Extra: sentencepiece
+Provides-Extra: testing
+Provides-Extra: quality
+Provides-Extra: all
+Provides-Extra: docs_specific
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: torchhub
+License-File: LICENSE
+
+i
+
+
