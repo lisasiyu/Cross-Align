@@ -46,7 +46,7 @@ sh ./srcipt/inference.sh
 ```
 ```Cross-Align``` produces outputs in the widely-used i-j “Pharaoh format,” where a pair i-j indicates that the i-th word (zero-indexed) of 
 the source language is aligned to the j-th word of the target sentence. You can see some examples in the ```data/xx.out```.
-##Calculating AER
+## Calculating AER
 The gold alignment file should have the same format as Cross-Align outputs. For sample parallel sentences and their gold alignments, see ```data/test.xx-xx``` and ```data/xx.talp```.
 ```commandline
 sh ./srcipt/cal_aer.sh
