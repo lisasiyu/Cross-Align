@@ -16,7 +16,7 @@ The following table shows how it compares to popular alignment models, the best 
 | **Ours**                                                 |  **13.6** |  **3.4**  |  **20.9** | **10.1**  | **35.4**  |
 
 We released the above five langauge pairs of Cross-Align models, you can download [HERE](https://drive.google.com/file/d/1FNB37uTLQRr0nXyJ4DdAB01pV_SInzlB/view?usp=sharing) and inference on test data directly.
-## Requirments
+## Requirements
 ```
 pip install --user --editable ./
 ```
