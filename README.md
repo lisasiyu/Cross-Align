@@ -1,6 +1,6 @@
 # Cross-Align
 Code for [EMNLP2022 "Cross-Align: Modeling Deep Cross-lingual Interactions for Word
-Alignment"](https://arxiv.org/pdf/2210.04141.pdf)
+Alignment"](https://aclanthology.org/2022.emnlp-main.244.pdf)
 
 ```Cross-Align``` is a high-quality word alignment tool which fully considers 
 the cross-lingual context by modeling deep interactions between the input sentence pairs.
