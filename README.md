@@ -54,10 +54,20 @@ sh ./srcipt/cal_aer.sh
 ## Publication
 If you use the code, please cite
 ```
-@article{Lai2022cross,
-  title={Cross-Align: Modeling Deep Cross-lingual Interactions for Word Alignment},
-  author={Siyu Lai, Zhen Yang, Fandong Meng, Yufeng Chen, Jinan Xu, Jie Zhou},
-  journal={arXiv preprint arXiv:2210.04141},
-  year={2022}
+@inproceedings{lai-etal-2022-cross,
+    title = "Cross-Align: Modeling Deep Cross-lingual Interactions for Word Alignment",
+    author = "Lai, Siyu  and
+      Yang, Zhen  and
+      Meng, Fandong  and
+      Chen, Yufeng  and
+      Xu, Jinan  and
+      Zhou, Jie",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.244",
+    pages = "3715--3725",
 }
 ```
